@@ -21,6 +21,7 @@
                 x:Key="BooleanToVisibilityConverter"
                 False="Collapsed"
                 True="Visible" />
+            <converters:TextToEnableConverter x:Key="TextToEnableConverter" />
             <ResourceDictionary.MergedDictionaries>
                 <materialDesign:CustomColorTheme
                     BaseTheme="Light"
